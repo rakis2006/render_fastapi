@@ -30,4 +30,4 @@ def index():
 
 @app.post("/present")
 async def give_present(present: str):
-    return {"response": f"ありがとう！{present}めっちゃ嬉しい！お返しはラーメンです。"}
+    return {"response": f"ありがとう！{present}めっちゃ嬉しい！お返しはキャンディーです。"}
